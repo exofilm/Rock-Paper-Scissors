@@ -28,7 +28,7 @@ scissors = '''
 ---.__(___)
 '''
 
-Choice=input("Rock, Paper, Scissors").lower()
+Choice=input("Rock, Paper, Scissors\n").lower()
 botchoice = random.choice([rock, paper, scissors])
 
 if Choice == "rock":
